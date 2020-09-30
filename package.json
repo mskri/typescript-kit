@@ -1,7 +1,7 @@
 {
-  "name": "eventer-api",
+  "name": "typescript-kit",
   "version": "0.1.0",
-  "description": "",
+  "description": "A minimal TypeScript boilerplate with prettier and eslint.",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.ts",
