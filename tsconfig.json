@@ -1,20 +1,21 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "target": "esnext",
     "module": "commonjs",
-    "moduleResolution": "node",
-    "noImplicitAny": false,
     "outDir": "./dist",
-    "paths": {
-      "*": ["src/*", "node_modules"]
-    },
-    "resolveJsonModule": true,
-    "sourceMap": true,
     "strict": true,
-    "target": "es6"
+    "allowJs": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"]
+    }
   },
   "include": ["./src"]
 }
