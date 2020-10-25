@@ -1,7 +1,7 @@
 {
   "name": "typescript-kit",
   "version": "0.1.0",
-  "description": "A template kit for node apps with TypeScript",
+  "description": "A template for starting a TypeScript node project.",
   "scripts": {
     "dev": "nodemon src/index.ts",
     "build": "tsc",

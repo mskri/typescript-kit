@@ -1,17 +1,34 @@
-# typescript-parcel-react-kit.git
+# typescript-kit
 
-A template kit for node apps with:
+A template for starting a TypeScript node project.
 
-- [TypeScript](typescriptlang.org/) (with absolute paths)
-- [Prettier](https://github.com/prettier/prettier) (with [husky](https://github.com/typicode/husky) to run prettier on changed files using [pretty-quick](https://github.com/azz/pretty-quick))
-- [ESLint](https://eslint.org/)
-- [nodemon](https://nodemon.io/)
+## Includes
+
+- [TypeScript](typescriptlang.org/) (with absolute paths for imports)
+- [Prettier](https://github.com/prettier/prettier) (with [husky](https://github.com/typicode/husky) to run prettier on changed files using [pretty-quick](https://github.com/azz/pretty-quick)) for code formatting
+- [ESLint](https://eslint.org/) for linting
+- [nodemon](https://nodemon.io/) for automated code reloading during development
 
 ## Start hacking!
+
+### New repo from this template
+
+[Create new repo with typescript-kit as the template](https://github.com/mskri/typescript-kit/generate)
+
+### Cloning
 
 ```bash
 git clone git@github.com:mskri/typescript-kit.git
 cd typescript-kit
-npm install
+npm i
+npm start
+```
+
+### [GitHub cli](https://cli.github.com/manual/) (`gh`)
+
+```bash
+gh repo create -p mskri/typescript-kit repo-name
+cd repo-name
+npm i
 npm start
 ```
