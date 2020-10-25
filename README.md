@@ -1,6 +1,11 @@
-# typescript-kit
+# typescript-parcel-react-kit.git
 
-A minimal [TypeScript](https://www.typescriptlang.org/) boilerplate with [prettier](https://github.com/prettier/prettier) and [eslint](https://eslint.org/).
+A template kit for node apps with:
+
+- [TypeScript](typescriptlang.org/) (with absolute paths)
+- [Prettier](https://github.com/prettier/prettier) (with [husky](https://github.com/typicode/husky) to run prettier on changed files using [pretty-quick](https://github.com/azz/pretty-quick))
+- [ESLint](https://eslint.org/)
+- [nodemon](https://nodemon.io/)
 
 ## Start hacking!
 
