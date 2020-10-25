@@ -24,7 +24,7 @@ npm i
 npm start
 ```
 
-### [GitHub cli](https://cli.github.com/manual/) (`gh`)
+### [GitHub cli](https://cli.github.com/manual/)
 
 ```bash
 gh repo create -p mskri/typescript-kit repo-name
