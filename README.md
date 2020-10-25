@@ -32,3 +32,8 @@ cd repo-name
 npm i
 npm start
 ```
+
+### See my other templates
+
+- [typescript-parcel-react-kit](https://github.com/mskri/typescript-parcel-react-kit)
+- [parcel-react-kit](https://github.com/mskri/parcel-react-kit)
