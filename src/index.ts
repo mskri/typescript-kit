@@ -1,3 +1,3 @@
 import { helloWorld } from 'utils/helloWorld';
 
-helloWorld();
+console.log(helloWorld());
